@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <title>Is It Healthy</title>
+</head>
+<body>
+    <div id="container">
+
+
+
+
+
+    
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="About.html">About</a></li>
+            <li>Faq</li>
+        </ul>
+    </nav>
+    <div id="main-header">
+        <h1 class="title">Is It Healthy?</h1>
+    </div>
+  
+  
+        <label class="label" for="barcode">Enter a UPC barcode number ( 12 digits):</label>
+        <input id="barcode" type="number" placeholder="Enter your food here."/>
+        <span id="error-msg"></span>
+        <button id="submit-btn" class='submit' type="submit">Get Value</button>
+        <div class="image-background">
+           <img id="product-image" src=" " alt="" />
+        </div>
+        <p id='product-name'></p>
+    
+      
+     <table id="ingredients-table">
+         <tr>
+            <th id="product-ingredients">Ingredient</th>
+            <th>Vegetarian ?</th>
+        </tr>
+     </table>
+     </div>
+   
+   
+
+
+
+    <script type="text/javascript" src='main.js' ></script>
+</body>
+</html>
